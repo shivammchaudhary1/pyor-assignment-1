@@ -1,0 +1,46 @@
+.line-chart-container {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 99%;
+  margin: auto;
+  color: white;
+}
+
+.line-chart-container {
+  padding: 10px;
+}
+
+.line-chart-select {
+  width: 99%;
+  margin: auto;
+  padding: 15px;
+  margin: 5px;
+  margin-bottom: 15px;
+  background-color: #333;
+  border: 1px solid #555;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  font-size: medium;
+}
+
+.line-chart-select > option {
+  font-size: medium;
+  background-color: #333;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.line-chart-select > option:hover {
+  background-color: gray;
+}
+
+.line-chart {
+  background-color: #333;
+  border: 1px solid #d32020;
+}
+
+.show-chat-heading {
+  font-size: x-large;
+  margin: 10px;
+}
